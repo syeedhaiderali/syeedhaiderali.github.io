@@ -1,8 +1,5 @@
----
-title: Haider Ali's CV
----
 
-#Haider Ali	
+# Haider Ali	
 
 
 <i class="fas fa-phone"></i> +92 333 3073327
