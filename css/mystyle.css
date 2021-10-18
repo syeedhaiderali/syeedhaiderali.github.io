@@ -3,15 +3,16 @@ div {
     align-content: center;
     margin: auto;
     border: 20%;
-    font-family: CopernicusBook, serif !important;
+    font-family: Optima, "Lucida Sans", "Lucida Grande", sans-serif;
     font-size: 1rem;
+    color: #494e52;
 }
 
 h1,
 h2,
 h3 {
     color: darkolivegreen;
-    /* font-family: CopernicusBook, serif !important; */
+    font-family: CopernicusBook, serif !important;
 }
 
 h1 {
@@ -25,7 +26,7 @@ h2 {
 }
 
 h3 {
-    color: #404040;
+    color: #494e52;
     margin-bottom: 1px;
 }
 
@@ -33,7 +34,10 @@ h3 {
 .header h1 {
     position: relative;
     left: 10%;
-    color: darkolivegreen;
+}
+
+.personal {
+    color: 494e52;
 }
 
 .header img {
