@@ -11,7 +11,7 @@ div {
 h1,
 h2,
 h3 {
-    color: darkolivegreen;
+    color: #009000;
     font-family: CopernicusBook, serif !important;
 }
 
@@ -36,8 +36,8 @@ h3 {
     left: 10%;
 }
 
-.personal {
-    color: 494e52;
+i {
+    color: #009000;
 }
 
 .header img {
@@ -45,11 +45,11 @@ h3 {
     width: 25%;
     height: auto;
     border-radius: 50% !important;
-    box-shadow: 0 0 0 3px darkolivegreen;
+    box-shadow: 0 0 0 3px #009000;
 }
 
 hr {
-    border: 1px solid darkolivegreen;
+    border: 1px solid #009000;
 }
 
 .right_text {
@@ -57,5 +57,46 @@ hr {
 }
 
 .footer {
-    padding: 32px;
+    max-width: 100% !important;
+    text-align: center;
+}
+
+.h1-name {
+    margin-bottom: 0.1em;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+.navMenu {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+
+.navMenu a {
+    text-decoration: none;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    position: relative;
+    padding: 0 .5em;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    font-family: "Montserrat", sans-serif;
+    color: #494e52;
+}
+
+.navMenu a:hover {
+    color: #009000;
+    font-weight: bold;
+}
+
+.nav-hr {
+    max-width: 100%;
+    border: 0.5px solid #494e52;
+    margin-top: 0;
 }
