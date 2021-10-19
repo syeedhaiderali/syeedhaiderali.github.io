@@ -20,13 +20,14 @@ h3 {
 }
 
 h1 {
-    font-size: 4.5em !important;
+    font-size: 5em !important;
+    margin: 0;
 }
 
 h2 {
     font-size: 2rem !important;
-    margin-bottom: 5px;
-    padding-top: 10px;
+    margin: 5px;
+    padding-top: 0;
 }
 
 h3 {
@@ -40,8 +41,7 @@ h3 {
 
 .header h1 {
     position: relative;
-    left: 1.5em;
-    margin: 0.8em;
+    display: inline-block;
 }
 
 i {
@@ -50,11 +50,12 @@ i {
 }
 
 .header img {
-    float: left;
+    position: relative;
     width: 25%;
     height: auto;
     border-radius: 50% !important;
     box-shadow: 0 0 0 3px #009000;
+    margin-top: 5em;
 }
 
 section {
@@ -64,6 +65,10 @@ section {
     margin: 10px;
     position: relative;
     display: block;
+}
+
+#header-sec {
+    padding: 0em;
 }
 
 hr {
